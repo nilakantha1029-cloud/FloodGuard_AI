@@ -1,0 +1,5 @@
+Put your trained checkpoint here as: best_model_pretrained.pth
+
+This matches the pretrained ResNet34 U-Net (segmentation-models-pytorch)
+architecture trained in the Colab notebook. The app looks for exactly
+this filename by default (see app.py -> load_detector()).

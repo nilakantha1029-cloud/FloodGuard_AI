@@ -1,0 +1,51 @@
+# ===== Secrets (never commit) =====
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== Virtual environments =====
+venv/
+v2fgenv/
+.venv/
+env/
+ENV/
+
+# ===== Model weights (~94 MB: GitHub warns at 50 MB, blocks at 100 MB) =====
+# Share the checkpoint via Google Drive / Hugging Face / GitHub Releases / Git LFS.
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.onnx
+!models/PUT_MODEL_HERE.txt
+
+# ===== Temp files created by the app / uploads =====
+*.tmp
+*.mp4
+*.mov
+*.avi
+floodguard_report.txt
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,8 @@
+streamlit>=1.35
+streamlit-folium>=0.20
+folium>=0.16
+torch>=2.0
+segmentation-models-pytorch>=0.3
+opencv-python-headless>=4.9
+numpy>=1.24
+requests>=2.31
